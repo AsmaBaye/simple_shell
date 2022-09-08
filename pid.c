@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-    pid_t my_pid;
-    pid_t my_ppid;
+	pid_t my_pid;
+	pid_t my_ppid;
 
-    my_pid = getpid();
-    my_ppid = getppid();
-    printf("%u\n%u", my_pid, my_ppid);
-    return (0);
+	my_pid = getpid();
+	my_ppid = getppid();
+	printf("%u\n%u", my_pid, my_ppid);
+	return (0);
 }
